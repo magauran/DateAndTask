@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A123B12204D7E32001E49BF /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A123B11204D7E32001E49BF /* UIButton+Extensions.swift */; };
+		8A123B14204EDF49001E49BF /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A123B13204EDF48001E49BF /* UIColor+CustomColors.swift */; };
+		8A123B16204EE1EC001E49BF /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A123B15204EE1EB001E49BF /* UIColor+Hex.swift */; };
+		8A123B1B204EE90E001E49BF /* SelectableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A123B1A204EE90E001E49BF /* SelectableButton.swift */; };
 		8ACA18DF20459A6D007BD864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACA18DE20459A6D007BD864 /* AppDelegate.swift */; };
 		8ACA18E120459A6D007BD864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACA18E020459A6D007BD864 /* ViewController.swift */; };
 		8ACA18E420459A6D007BD864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACA18E220459A6D007BD864 /* Main.storyboard */; };
 		8ACA18E620459A6D007BD864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACA18E520459A6D007BD864 /* Assets.xcassets */; };
 		8ACA18E920459A6D007BD864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACA18E720459A6D007BD864 /* LaunchScreen.storyboard */; };
+		8AFD25B42047356C00D42E49 /* DateAndTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD25B32047356C00D42E49 /* DateAndTaskViewController.swift */; };
+		8AFD25B6204736D900D42E49 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD25B5204736D900D42E49 /* UIView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A123B11204D7E32001E49BF /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		8A123B13204EDF48001E49BF /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		8A123B15204EE1EB001E49BF /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		8A123B1A204EE90E001E49BF /* SelectableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButton.swift; sourceTree = "<group>"; };
 		8ACA18DB20459A6D007BD864 /* DateAndTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateAndTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACA18DE20459A6D007BD864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ACA18E020459A6D007BD864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		8ACA18E520459A6D007BD864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ACA18E820459A6D007BD864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ACA18EA20459A6D007BD864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFD25B32047356C00D42E49 /* DateAndTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTaskViewController.swift; sourceTree = "<group>"; };
+		8AFD25B5204736D900D42E49 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A123B17204EE255001E49BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8AFD25B5204736D900D42E49 /* UIView+Constraints.swift */,
+				8A123B11204D7E32001E49BF /* UIButton+Extensions.swift */,
+				8A123B13204EDF48001E49BF /* UIColor+CustomColors.swift */,
+				8A123B15204EE1EB001E49BF /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A123B18204EE2A2001E49BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8ACA18E020459A6D007BD864 /* ViewController.swift */,
+				8AFD25B32047356C00D42E49 /* DateAndTaskViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A123B19204EE8F8001E49BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A123B1A204EE90E001E49BF /* SelectableButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8ACA18D220459A6D007BD864 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				8ACA18DE20459A6D007BD864 /* AppDelegate.swift */,
-				8ACA18E020459A6D007BD864 /* ViewController.swift */,
+				8A123B19204EE8F8001E49BF /* Views */,
+				8A123B18204EE2A2001E49BF /* ViewControllers */,
+				8A123B17204EE255001E49BF /* Extensions */,
 				8ACA18E220459A6D007BD864 /* Main.storyboard */,
 				8ACA18E520459A6D007BD864 /* Assets.xcassets */,
 				8ACA18E720459A6D007BD864 /* LaunchScreen.storyboard */,
@@ -136,8 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A123B16204EE1EC001E49BF /* UIColor+Hex.swift in Sources */,
+				8A123B1B204EE90E001E49BF /* SelectableButton.swift in Sources */,
 				8ACA18E120459A6D007BD864 /* ViewController.swift in Sources */,
+				8AFD25B42047356C00D42E49 /* DateAndTaskViewController.swift in Sources */,
 				8ACA18DF20459A6D007BD864 /* AppDelegate.swift in Sources */,
+				8A123B12204D7E32001E49BF /* UIButton+Extensions.swift in Sources */,
+				8AFD25B6204736D900D42E49 /* UIView+Constraints.swift in Sources */,
+				8A123B14204EDF49001E49BF /* UIColor+CustomColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +328,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alexey.DateAndTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,6 +344,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Alexey.DateAndTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
